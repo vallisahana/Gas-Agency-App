@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "224648303852",
+    "firebase_url": "https://gas-agency-bf1f3.firebaseio.com",
+    "project_id": "gas-agency-bf1f3",
+    "storage_bucket": "gas-agency-bf1f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224648303852:android:711b36ee21031b8b5281c9",
+        "android_client_info": {
+          "package_name": "com.example.sahana.gasagency"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224648303852-4qadc4gbkjni2ghe0tvej2k3bquv5ckh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9n2vClB2MKVRk7IeyZ5yQvVcSXekaykc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224648303852-4qadc4gbkjni2ghe0tvej2k3bquv5ckh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

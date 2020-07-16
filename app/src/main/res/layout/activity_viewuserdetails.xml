@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewuserdetailsActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="#CBE7EB"
+        android:orientation="vertical"
+        android:weightSum="6">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="0.75">
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:text="user DETAILS"
+                    android:textAllCaps="true"
+                    android:textColor="#0E0D0D"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="5.25"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.25"
+                android:orientation="vertical"
+                >
+
+
+                <EditText
+                    android:id="@+id/search_user_name"
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="14dp"
+                    android:ems="10"
+                    android:hint="Enter Name"
+                    android:textColor="#FAF5F5"
+                    android:inputType="textPersonName" >
+                    <requestFocus/>
+                </EditText>
+
+
+                <Button
+                    android:id="@+id/search_teacher_btn"
+                    android:layout_width="100dp"
+                    android:layout_height="45dp"
+                    android:layout_alignStart="@+id/search_user_name"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center|left"
+                    android:layout_marginStart="144dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="#039BE5"
+                    android:text="SEARCH"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/delete_teacher_btn"
+                    android:layout_width="100dp"
+                    android:layout_height="45dp"
+                    android:layout_alignEnd="@+id/search_user_name"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center|right"
+                    android:layout_marginEnd="153dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#039BE5"
+                    android:text="DELETE"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+            </RelativeLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="4">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:layout_marginTop="50dp">
+
+
+                    <ListView
+                        android:id="@+id/userdetailistview"
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp"
+                        android:layout_gravity="top|center|right"
+                        android:layout_weight="4"
+                        android:orientation="horizontal" />
+
+
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
